@@ -1,6 +1,3 @@
-import {a,b,c,name} from './mymodule.js'
-import obj from './mymodule.js'
-
 // import { createServer } from 'node:http';
 // // agr hame server restart krna h agr koi bhi changes hoga to 
 // // ham nodemon se run krengy file
@@ -17,6 +14,21 @@ import obj from './mymodule.js'
 //   console.log(`Server running at http://${hostname}:${port}/`);
 // });
 
-console.log(a,b,c,name);
+// --------------------------------------------------------------------------
 
-console.log(obj);
+// import {a,b,c,name} from './mymodule.js'
+// import obj from './mymodule.js'
+
+// console.log(a,b,c,name);
+
+// console.log(obj);
+
+// --------------------------------------------------------------------------
+// to run this you have to remove 
+// type : "module" from the package.json file
+// const a = require('./mymodule2.js')
+
+// console.log(a);
+
+// console.log(__dirname);
+// console.log(__filename);
